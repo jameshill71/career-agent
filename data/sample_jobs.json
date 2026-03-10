@@ -1,0 +1,29 @@
+[
+  {
+    "source": "sample",
+    "url": "https://example.com/jobs/python-backend-1",
+    "company": "ExampleCo",
+    "title": "Python Backend Engineer",
+    "location": "Remote - US",
+    "posted_date": "2026-02-28",
+    "description": "We are looking for a Python engineer to build FastAPI services on Linux. Strong SQL and REST API experience required. CLI tooling and automation experience a plus. Docker and AWS helpful."
+  },
+  {
+    "source": "sample",
+    "url": "https://example.com/jobs/frontend-react-2",
+    "company": "BrightWeb",
+    "title": "Senior Frontend Engineer",
+    "location": "Austin, TX",
+    "posted_date": "2026-02-25",
+    "description": "Seeking React and TypeScript expert for building dynamic UI components. Heavy frontend focus. Experience with Angular or Vue a bonus. Minimal backend responsibilities."
+  },
+  {
+    "source": "sample",
+    "url": "https://example.com/jobs/systems-linux-3",
+    "company": "InfraLogic",
+    "title": "Linux Systems Engineer",
+    "location": "Hybrid - Dallas, TX",
+    "posted_date": "2026-02-20",
+    "description": "Maintain Linux servers, write Bash automation scripts, develop internal CLI tools in Python. Experience with SQL databases and containerization required."
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "database": {
+    "path": "~/.career_agent/career_agent.db"
+  },
+  "profile": {
+    "preferred_keywords": {
+      "python": 12,
+      "linux": 12,
+      "cli": 10,
+      "fastapi": 10,
+      "sql": 8,
+      "sqlite": 6,
+      "api": 6,
+      "rest": 6,
+      "pytest": 5,
+      "bash": 5,
+      "docker": 5,
+      "aws": 6,
+      "c": 4
+    },
+    "negative_keywords": {
+      "react": 10,
+      "angular": 8,
+      "vue": 6,
+      "typescript": 8,
+      "sales": 12,
+      "commission": 12
+    }
+  },
+  "sources": [
+    {
+      "type": "local_json",
+      "path": "data/sample_jobs.json"
+    },
+    {
+      "type": "rss",
+      "url": "https://remoteok.com/remote-dev-jobs.rss"
+    },
+    {
+      "type": "rss",
+      "url": "https://weworkremotely.com/categories/remote-programming-jobs.rss"
+    }
+  ]
+}

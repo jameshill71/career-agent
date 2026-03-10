@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "career-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+  "typer>=0.12",
+  "pydantic>=2.0",
+]
+
+[project.scripts]
+career-agent = "career_agent.cli:app"
+
+[tool.setuptools]
+packages = ["career_agent"]
